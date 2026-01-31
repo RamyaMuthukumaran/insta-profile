@@ -1,3 +1,28 @@
+@media (max-width: 600px) {
+    /* Profile Header alignment */
+    .profile-header {
+        flex-direction: column; /* Photo-vum Stats-um onnu keela onnu vara */
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    /* Buttons full width-ah vara */
+    .buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .btn {
+        width: 100%; /* Phone-la buttons perusa irundha thaan click panna easy */
+    }
+
+    /* 3x3 Grid-ah maintain panna */
+    .posts-grid {
+        gap: 2px; /* Chinnadha gap irundha pothum */
+    }
+}
 body{
     font-family:sans-serif;
     background-color: white;
